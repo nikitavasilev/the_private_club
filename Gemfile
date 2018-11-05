@@ -23,7 +23,7 @@ gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
 gem 'minitest', '~> 5.11', '>= 5.11.3'
-
+gem 'concurrent-ruby', '~> 1.0.5'
 gem 'faker', '~> 1.6', '>= 1.6.6'
 gem 'devise', '~> 4.5'
 gem 'devise-i18n'
