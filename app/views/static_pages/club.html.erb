@@ -5,14 +5,14 @@
       <div class="col"><strong>ID:</strong></div>
       <div class="col"><strong>First name:</strong></div>
       <div class="col"><strong>Last name:</strong></div>
-      <div class="col"><strong>Email:</strong></div>
+      <div class="col" style="min-width: 350px;"><strong>Email:</strong></div>
     </div>
     <% @user.each do |user| %>
       <div class="row container">
         <div class="col" style="border: solid 1px #000;"><%= user.id %></div>
         <div class="col" style="border: solid 1px #000;"><%= user.first_name %></div>
         <div class="col" style="border: solid 1px #000;"><%= user.last_name %></div>
-        <div class="col" style="border: solid 1px #000;"><%= user.email %></div>
+        <div class="col" style="border: solid 1px #000; min-width: 350px;"><%= user.email %></div>
       </div>
     <% end %>
   </div>
