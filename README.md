@@ -3,7 +3,7 @@
 This work was done as a project for [The Hacking Project Bootcamp](https://www.thehackingproject.org/).
 
 [Click here](https://theprivate-club.herokuapp.com/) to check the live version of the app.
-The goal was to learn the basics of TDD using MiniTest to test the models and the views before deploying the app. The app is build on Rails and a PostGreSQL. We use the `Devise` gem for authentication.
+The goal was to learn the basics of TDD using MiniTest to test the models and the views before deploying the app. The app is build on Rails and a PostGreSQL database. We use the `Devise` gem for authentication.
 
 ## Requirements
 
