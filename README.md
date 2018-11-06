@@ -19,8 +19,8 @@ You need at least ruby 2.5.1, rails 5.2.1 and bundler installed on your computer
 8. Open your browser, and type: `http://localhost:3000`
 9. To play with the database run `$ rails console`
 10. To `MiniTest` test, run:
-    1. `$ rails test:models` to test models
-    2. `$ rails test:controllers` to test the views
+    * `$ rails test:models` to test models
+    * `$ rails test:controllers` to test the views
 
 # Contributions
 
