@@ -30,7 +30,7 @@
       <% if current_user.first_name == nil %>
         <strong><%= current_user.email %></strong>.</p>
       <% else %>
-        <strong><%= current_user.first_name %></strong>.</p>
+        <strong><%= current_user.first_name.capitalize %></strong>.</p>
       <% end %>
     <% end %>
   </nav>

@@ -1,5 +1,5 @@
 <% if user_signed_in? %>
-  <h1 class="text-center margin-header-bis">Hello <%= current_user.first_name %>,<br>welcome to the Private Club</h1>
+  <h1 class="text-center margin-header-bis">Hello <%= current_user.first_name.capitalize %>,<br>welcome to the Private Club</h1>
   <div class="text-center margin-header">
     <%= image_tag "clover_home.png", alt: 'logo', width: '110px' %>
   </div>
