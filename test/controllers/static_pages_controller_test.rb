@@ -50,4 +50,11 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     end
   end
 
+  test "not show members while not logged in" do
+    get club_path
+    assert_select "div" do
+      assert_select 'user.id', 0
+    end
+  end
+
 end
